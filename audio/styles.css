@@ -1,0 +1,8 @@
+.audio-player {
+	display: inline-block;
+
+	padding: 1em;
+	margin: 1em;
+	border: 2px solid hsl(0, 0%, 80%);
+	border-radius: 1em;
+}

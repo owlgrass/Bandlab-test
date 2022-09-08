@@ -1,0 +1,46 @@
+:root {
+	--border-radius: 1.5em;
+}
+
+.blog-posts {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2em;
+}
+.blog-posts > header > h1 {
+	margin-bottom: 1em;
+}
+.blog-posts > header > label {
+	display: inline-block;
+	margin-right: 2em;
+	user-select: none;
+}
+.blog-posts .group {
+	margin-bottom: 5em;
+}
+.blog-posts .group > h2 {
+	border-bottom: 2px solid hsl(0, 0%, 80%);
+	margin: 3em 0 0;
+	font-size: 0.8rem;
+	color: hsl(0, 0%, 70%);
+}
+
+.blog-post {
+	margin: 0 0 3em;
+}
+.blog-post > header > h2,
+.blog-post > header > h3 {
+	margin: 1em 0 0;
+	font-size: 1.5rem;
+}
+.blog-post > header > .subtitle {
+	margin-bottom: 1em;
+	color: hsl(0, 0%, 30%);
+	font-size: 0.8em;
+}
+.blog-post > div {
+	background: hsl(0, 0%, 95%);
+	border-radius: 0 var(--border-radius) var(--border-radius)
+		var(--border-radius);
+	padding: 1em;
+}

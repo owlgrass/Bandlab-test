@@ -1,13 +1,13 @@
-/**
- * Using Vue runtime compliation
- */
+import BlogPosts from './BlogPosts.js'
 const { createApp } = Vue
 
 const App = {
-  data() {
-    return { message: 'Vue here!' }
-  },
-  template: `<div>hello {{ message }}</div>`
+	template: `
+		<BlogPosts></BlogPosts>
+	`,
+	components: {
+		BlogPosts
+	}
 }
 const $app = document.createElement('div')
 document.body.prepend($app)
